@@ -56,7 +56,7 @@ sudo systemctl start docker
   ```
 * Install the webserver 🛠️:
   ```sh
-  cd RobloxFDLauncherLinux
+  cd VanillaLinuxLauncher
   cd webserver
   ./install.sh
   ```
@@ -79,7 +79,7 @@ sudo systemctl start docker
 * Run `./start.sh`.
 * Alternatively you can just input this into a terminal and it should start.
 *  ```
-    /home/$USER/RobloxFDLauncherLinux/webserver/start.sh
+    /home/$USER/VanillaLinuxLauncher/webserver/start.sh
     ```
 ### Stopping ⛔
 * Go into the `webserver` directory.
@@ -87,16 +87,16 @@ sudo systemctl start docker
 * Use `./kill.sh` if the webserver has issues or you want to kill it outright. This should only really be used if you've updated or issues occurred.
 * Alternatively you can just input this into a terminal and it should stop/kill.
 * ```
-   /home/$USER/RobloxFDLauncherLinux/webserver/stop.sh
+   /home/$USER/VanillaLinuxLauncher/webserver/stop.sh
 * ```
-  /home/$USER/RobloxFDLauncherLinux/webserver/kill.sh
+  /home/$USER/VanillaLinuxLauncher/webserver/kill.sh
   ```
 ## Hosting servers 🌐
 * [Start the webserver](https://github.com/Twig6943/VanillaLinuxLauncher#starting-and-stopping-the-webserver) if you haven't.
 * Run `./host.sh` with the arguments `client version`, `path to map`, and `port`. Port should be between 1024 and 32767 (to avoid collisions with the internal port used by RCCService). 2005 is a common port used.
   Example:
   ```sh
-  /home/$USER/RobloxFDLauncherLinux/host.sh 2016L "/home/$USER/RobloxFDLauncherLinux/maps/2007Crossroads.rbxl" 2005
+  /home/$USER/VanillaLinuxLauncher/host.sh 2016L "/home/$USER/VanillaLinuxLauncher/maps/2007Crossroads.rbxl" 2005
   ```
 * Players can now connect to your server by using the port you inputted.
 ## Joining servers 🖥️
@@ -104,7 +104,7 @@ sudo systemctl start docker
 * Run `./join.sh` with the arguments `client version`, `IP`, `port` and `username`.
   Example:
   ```sh
-  /home/$USER/RobloxFDLauncherLinux/join.sh 2016L 127.0.0.1 2005 "John Doe"
+  /home/$USER/VanillaLinuxLauncher/join.sh 2016L 127.0.0.1 2005 "John Doe"
   ```
 ## Documenation 📄 (Work-in-progress)
 
