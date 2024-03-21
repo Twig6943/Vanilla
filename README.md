@@ -52,23 +52,23 @@ sudo pacman -S docker
 sudo systemctl start docker
 ```
 * Clone the repository 📋:
-  ```sh
+  ```
   git clone https://github.com/Twig6943/VanillaLinuxLauncher
   ```
 * Install the webserver 🛠️:
-  ```sh
+  ```
   cd VanillaLinuxLauncher
   cd webserver
   ./install.sh
   ```
 *  You should start up the server when it asks you to download all binaries needed.
-* Download the clients from https://aeplexi.itch.io/roblox-filtering-disabled (download `FilteringDisabled.7z`)
-* Extract the folders `Clients` and `shared` into the root folder (where the webserver folder is)  
-  Example layout:
+* Download the clients from Vanilla's Discord server https://discord.gg/ynzufPHJgf (Clients are located at the #downloads channel)
+* Create a new folder called `clients`
+  It should look like this:
   ```
   |->webserver
-  |->Clients
-  |->Shared
+  |->clients
+  |->maps
   |->host.sh
   |->join.sh
   |->customize.sh
