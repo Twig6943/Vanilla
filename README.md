@@ -1,5 +1,5 @@
 # Roblox Filtering Disabled Linux Launcher 🐧
-![Placeholder](https://github.com/Vector4-new/RobloxFDLauncherLinux/assets/119701717/c7ecc390-2199-47c0-a278-8880205ead49)
+
 
 Allows you to run Roblox clients and host servers on Linux.  
 
@@ -41,7 +41,7 @@ sudo systemctl start docker
 ```
 * Clone the repository 📋:
   ```sh
-  git clone https://github.com/Vector4-new/RobloxFDLauncherLinux
+  git clone https://github.com/Twig6943/VanillaLinuxLauncher
   ```
 * Install the webserver 🛠️:
   ```sh
@@ -89,7 +89,7 @@ sudo systemctl start docker
   ```
 * Players can now connect to your server by using the port you inputted.
 ## Joining servers 🖥️
-* [Start the webserver](https://github.com/Vector4-new/RobloxFDLauncherLinux#starting-and-stopping-the-webserver) if you haven't.
+* [Start the webserver](https://github.com/Twig6943/VanillaLinuxLauncher#starting-and-stopping-the-webserver) if you haven't.
 * Run `./join.sh` with the arguments `client version`, `IP`, `port` and `username`.
   Example:
   ```sh
@@ -97,11 +97,11 @@ sudo systemctl start docker
   ```
 ## Documenation 📄 (Work-in-progress)
 
-https://github.com/Vector4-new/RobloxFDLauncherLinux/blob/main/HostScripts.md
+https://github.com/Twig6943/VanillaLinuxLauncher/blob/main/HostScripts.md
 
-https://github.com/Vector4-new/RobloxFDLauncherLinux/blob/main/JoinScripts.md
+https://github.com/Twig6943/VanillaLinuxLauncher/blob/main/JoinScripts.md
 
-https://github.com/Vector4-new/RobloxFDLauncherLinux/blob/main/customize.md
+https://github.com/Twig6943/VanillaLinuxLauncher/blob/main/customize.md
 
 https://github.com/Twig6943/RobloxGraphicsSwitcherForLinux/tree/main/RFD (2020L configs will more than most likely not work.)
 ## Known issues ⚠
