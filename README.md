@@ -1,4 +1,5 @@
 # Vanilla Linux Launcher 🐧
+![Logo](https://github.com/Twig6943/VanillaLinuxLauncher/assets/119701717/1a78f302-c690-4ce4-9fec-448d708bf886)
 
 
 Allows you to run Roblox clients and host servers on Linux.  (Heavily Work-in-progress repository)
