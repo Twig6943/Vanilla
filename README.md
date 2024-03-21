@@ -1,7 +1,7 @@
-# Roblox Filtering Disabled Linux Launcher 🐧
+# Vanilla Linux Launcher 🐧
 
 
-Allows you to run Roblox clients and host servers on Linux.  
+Allows you to run Roblox clients and host servers on Linux.  (Heavily Work-in-progress repository)
 
 ### Current clients and servers:
 Status|Architecture
@@ -11,19 +11,30 @@ Status|Architecture
 🟡|Kinda works (Client will probably work but there might be issues such as lag and what not)  
 ✅|Works (Client is supposed to work flawlessly, at least it did while testing)  
 
-* ✅ 2008M <needs mfc90 to function>
-* 🟡 2013L <untested>
-* 🟡 2014M <untested, crash on my machine>
-* 🟡 2015M <untested, crash on my machine>
-* ✅ 2016L
-* ✅ 2017M
-* ✅ 2018E
-* ✅ 2018M
-* ✅ 2018L
-* ✅ 2019M
-* ✅ 2020L (works with  2020L_Join_Alternative.sh on my machine(
-* ✅ 2021E
-* ❌ 2022M
+* 💩 2007E
+* 💩 2007L
+* 💩 2008E
+* 💩 2008M
+* 💩 2009L
+* 💩 2009M
+* 💩 2010M
+* 💩 2010L
+* 💩 2011E
+* 💩 2011M
+* 💩 2012M
+* 💩 2012L
+* 💩 2013M
+* 💩 2013L
+* 💩 2014M
+* 💩 2014L
+* 💩 2015E
+* 💩 2015M
+* 💩 2016E
+* 💩 2017E
+* 💩 2018M
+* 💩 2019L
+* 💩 2020E
+* 💩 2021E
 
 ## Install the Dependencies 📁
 
@@ -81,7 +92,7 @@ sudo systemctl start docker
   /home/$USER/RobloxFDLauncherLinux/webserver/kill.sh
   ```
 ## Hosting servers 🌐
-* [Start the webserver](https://github.com/Vector4-new/RobloxFDLauncherLinux#starting-and-stopping-the-webserver) if you haven't.
+* [Start the webserver](https://github.com/Twig6943/VanillaLinuxLauncher#starting-and-stopping-the-webserver) if you haven't.
 * Run `./host.sh` with the arguments `client version`, `path to map`, and `port`. Port should be between 1024 and 32767 (to avoid collisions with the internal port used by RCCService). 2005 is a common port used.
   Example:
   ```sh
