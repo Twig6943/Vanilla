@@ -128,7 +128,7 @@ https://github.com/Twig6943/RobloxGraphicsSwitcherForLinux/tree/main/RFD (2020L 
 •You might experience weird gpu glitches if you have an nvidia gpu. If you do experience the said issue try using the 2021E client or 2020L with the OpenGL/Vulkan flags dxvk/wined3d might get rid of the gpu issues if you want to use the older clients without gpu issues switch to dxvk if you were using wined3d or maybe vice versa. Another thing you might try to fix the said issue is tinkering with your nvidia control panel settings. 
 
 ### Last launcher update 🔔
-Feb 16, 2024
+Placeholder
 
 ### Credits 💯
 You can contact anyone on discord:
