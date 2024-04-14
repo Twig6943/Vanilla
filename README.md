@@ -1,6 +1,6 @@
 # Vanilla Linux Launcher 🐧
   
-![Logo](https://github.com/Twig6943/VanillaLinuxLauncher/assets/119701717/1a78f302-c690-4ce4-9fec-448d708bf886)
+![Logo](https://github.com/Twig6943/Vanilla/assets/119701717/1a78f302-c690-4ce4-9fec-448d708bf886)
 
 Allows you to run Roblox clients and host servers on Linux.
 
@@ -45,7 +45,7 @@ Status|Architecture
 
 ## Installing the launcher 📁
 
-* Run the installer depending on your distro.(can be found in https://github.com/Twig6943/VanillaLinuxLauncher/releases )
+* Run the installer depending on your distro.(can be found in https://github.com/Twig6943/Vanilla/releases )
 
 ## Starting and stopping the webserver ⭐ 
 ### Starting 🚀
@@ -75,11 +75,11 @@ docker-compose down
   ```
 ## Documenation 📄 (Work-in-progress)
 
-https://github.com/Twig6943/VanillaLinuxLauncher/blob/main/HostScripts.md
+https://github.com/Twig6943/Vanilla/blob/main/HostScripts.md
 
-https://github.com/Twig6943/VanillaLinuxLauncher/blob/main/JoinScripts.md
+https://github.com/Twig6943/Vanilla/blob/main/JoinScripts.md
 
-https://github.com/Twig6943/VanillaLinuxLauncher/blob/main/customize.md
+https://github.com/Twig6943/Vanilla/blob/main/customize.md
 
 https://github.com/Twig6943/RobloxGraphicsSwitcherForLinux/tree/main/RFD (2020L configs will more than most likely not work.)
 ## Known issues ⚠
