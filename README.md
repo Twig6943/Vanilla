@@ -1,4 +1,5 @@
-  ```# Roblox Filtering Disabled Linux Launcher 🐧
+# Vanilla Linux Launcher 🐧
+  
 ![Logo](https://github.com/Twig6943/VanillaLinuxLauncher/assets/119701717/1a78f302-c690-4ce4-9fec-448d708bf886)
 
 Allows you to run Roblox clients and host servers on Linux.
@@ -44,36 +45,8 @@ Status|Architecture
 
 ## Install the Dependencies 📁
 
-## Debian Based Distros 🍥 (Ubuntu,Linux Mint..)
-Install [Wine](https://wiki.winehq.org/Download) 🍷
-```
-sudo apt install docker
-sudo apt install docker-compose
-sudo apt install git
-sudo apt install wget
-sudo apt install aria2
-sudo apt install unzip
-```
-## Arch-Based Distros (SteamOS,Manjaro..)
-```
-sudo pacman -S wine --noconfirm
-sudo pacman -S docker --noconfirm
-sudo pacman -S docker-compose --noconfirm
-sudo pacman -S git --noconfirm
-sudo pacman -S unzip --noconfirm
-sudo pacman -S wget --noconfirm
-sudo pacman -S aria2 --noconfirm
-```
-* Run the installer (can be found in https://github.com/Vector4-new/RobloxFDLauncherLinux/releases/)
-* (EXPERIMENTAL XAMPP VERSION CAN ALSO BE FOUND IN THE RELEASES TAB (3.2) )
+* Run the installer (can be found in https://github.com/Vector4-new/RobloxFDLauncherLinux/releases/ )
 
-* Install the webserver 🛠️:
-  ```sh
-  cd RobloxFDLauncherLinux
-  cd webserver
-  ./install.sh
-  ```
-*  You should start up the server when it asks you to download all binaries needed.
 ## Starting and stopping the webserver ⭐ 
 ### Starting 🚀
 ```
@@ -81,10 +54,6 @@ cd /home/$USER/Vanilla
 docker-compose up
 ```
 ### Stopping ⛔
-* Go into the `webserver` directory.
-* Use `./stop.sh`. if you want to pause the webserver. You should usually use this unless an update occurred.
-* Use `./kill.sh` if the webserver has issues or you want to kill it outright. This should only really be used if you've updated or issues occurred.
-* Alternatively you can just input this into a terminal and it should stop/kill.
 * ```
  cd /home/$USER/Vanilla
  docker-compose down
