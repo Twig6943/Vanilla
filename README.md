@@ -45,7 +45,7 @@ Status|Architecture
 
 ## Install the Dependencies 📁
 
-* Run the installer (can be found in https://github.com/Vector4-new/RobloxFDLauncherLinux/releases/ )
+* Run the installer depending on your distro.(can be found in https://github.com/Twig6943/VanillaLinuxLauncher/releases )
 
 ## Starting and stopping the webserver ⭐ 
 ### Starting 🚀
