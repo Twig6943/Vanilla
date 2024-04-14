@@ -43,7 +43,7 @@ Status|Architecture
 
 
 
-## Install the Dependencies 📁
+## Installing the launcher 📁
 
 * Run the installer depending on your distro.(can be found in https://github.com/Twig6943/VanillaLinuxLauncher/releases )
 
