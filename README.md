@@ -75,11 +75,11 @@ docker-compose down
   ```
 ## Documenation 📄 (Work-in-progress)
 
-https://github.com/Vector4-new/RobloxFDLauncherLinux/blob/main/HostScripts.md
+https://github.com/Twig6943/VanillaLinuxLauncher/blob/main/HostScripts.md
 
-https://github.com/Vector4-new/RobloxFDLauncherLinux/blob/main/JoinScripts.md
+https://github.com/Twig6943/VanillaLinuxLauncher/blob/main/JoinScripts.md
 
-https://github.com/Vector4-new/RobloxFDLauncherLinux/blob/main/customize.md
+https://github.com/Twig6943/VanillaLinuxLauncher/blob/main/customize.md
 
 https://github.com/Twig6943/RobloxGraphicsSwitcherForLinux/tree/main/RFD (2020L configs will more than most likely not work.)
 ## Known issues ⚠
@@ -93,4 +93,4 @@ If you've found a new issue/bug please let us know over at our discord. (Discord
 Placeholder
 
 ### Credits 💯
-@twig6843 @molomm1 @frickinfire
+@twig6843 @molomm1 @vector4-new @frickinfire 
