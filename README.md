@@ -6,7 +6,7 @@ Allows you to run Roblox clients and host servers on Linux.
 
 (This repo is going to be set to private, if roblox allows wine again.)
 
-(You might not have good experience with non-debian based distros)
+(Although Arch-based distros are supported too, You might not have good experience with non-debian based distros)
 
 ### Current clients and servers:
 Status|Architecture
