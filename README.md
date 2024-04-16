@@ -6,7 +6,7 @@ Allows you to run Roblox clients and host servers on Linux.
 
 (This repo is going to be set to private, if roblox allows wine again.)
 
-(Although Arch-based distros are supported too, you might not have good experience with non-debian based distros)
+(Some stuff tend to break on arch. Use debian if u can!)
 
 ### Current clients and servers:
 Status|Architecture
@@ -44,9 +44,9 @@ Status|Architecture
 
 
 ## Installing the launcher 📁
-
-* Run the installer depending on your distro.(can be found in https://github.com/Twig6943/Vanilla/releases )
-
+1.Install the installer depending on your distro.(can be found in https://github.com/Twig6943/Vanilla/releases )
+2.Put it into /home/USER/Vanilla/
+3.Run the script 🤯
 ## Starting and stopping the webserver ⭐ 
 ### Starting 🚀
 ```
@@ -58,34 +58,16 @@ docker-compose up
 cd /home/$USER/Vanilla
 docker-compose down
 ```
-## Hosting servers 🌐
-* [Start the webserver](https://github.com/Vector4-new/RobloxFDLauncherLinux#starting-and-stopping-the-webserver) if you haven't.
-* Run `./host.sh` with the arguments `client version`, `path to map`, and `port`. Port should be between 1024 and 32767 (to avoid collisions with the internal port used by RCCService). 2005 is a common port used.
-  Example:
-  ```sh
-  /home/$USER/Vanilla/host.sh 2016L "/home/$USER/Vanilla/files/maps/2007Crossroads.rbxl" 2005
-  ```
-* Players can now connect to your server by using the port you inputted.
-## Joining servers 🖥️
-* [Start the webserver](https://github.com/Vector4-new/RobloxFDLauncherLinux#starting-and-stopping-the-webserver) if you haven't.
-* Run `./join.sh` with the arguments `client version`, `IP`, `port` and `username`.
-  Example:
-  ```sh
-  /home/$USER/Vanilla/host.sh 2016L 127.0.0.1 2005 "John Doe"
-  ```
-## Documenation 📄 (Work-in-progress)
+## Launching the launcher🌐
+Just run launch.sh 
 
-https://github.com/Twig6943/Vanilla/blob/main/HostScripts.md
-
-https://github.com/Twig6943/Vanilla/blob/main/JoinScripts.md
-
-https://github.com/Twig6943/Vanilla/blob/main/customize.md
-
+(OpenGL/Vulkan flags for 2020L/2021E ⬇️)
 https://github.com/Twig6943/RobloxGraphicsSwitcherForLinux/tree/main/RFD (2020L configs will more than most likely not work.)
 ## Known issues ⚠
 ### Hosting 🌐
 •Placeholder
 ### Joining 🖥️
+•Placeholder
 •You might experience weird gpu glitches if you have an nvidia gpu. If you do experience the said issue try using the 2021E client or 2020L with the OpenGL/Vulkan flags dxvk/wined3d might get rid of the gpu issues if you want to use the older clients without gpu issues switch to dxvk if you were using wined3d or maybe vice versa. Another thing you might try to fix the said issue is tinkering with your nvidia control panel settings. 
 If you've found a new issue/bug please let us know over at our discord. (Discord:https://discord.gg/wqbSbt5GQ4)
 
