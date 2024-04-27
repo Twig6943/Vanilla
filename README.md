@@ -3,7 +3,7 @@
 ![Logo](https://github.com/Twig6943/Vanilla/assets/119701717/1a78f302-c690-4ce4-9fec-448d708bf886)
 
 Allows you to run Roblox clients and host servers on Linux.
-
+(THIS IS BROKEN AS OF RN)
 (This repo is going to be set to private, if roblox allows wine again.)
 
 (Some stuff tend to break on arch. Use debian if u can!)
