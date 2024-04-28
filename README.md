@@ -65,7 +65,7 @@ docker-compose down
 ## Launching the launcher🌐
 Just run launch_mint.sh 
 ```
-/home/USER/Vanilla/launch_mint.sh
+/home/$USER/Vanilla/launch_mint.sh
 ```
 
 (OpenGL/Vulkan flags for 2020L/2021E ⬇️)
