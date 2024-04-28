@@ -63,7 +63,10 @@ cd /home/$USER/Vanilla
 docker-compose down
 ```
 ## Launching the launcher🌐
-Just run launch.sh 
+Just run launch_mint.sh 
+```
+/home/USER/Vanilla/launch_mint.sh
+```
 
 (OpenGL/Vulkan flags for 2020L/2021E ⬇️)
 https://github.com/Twig6943/RobloxGraphicsSwitcherForLinux/tree/main/RFD (2020L configs will more than most likely not work.)
