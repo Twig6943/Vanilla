@@ -8,8 +8,10 @@ Allows you to run Roblox clients and host servers on Linux.
 
 (Some stuff tend to break on arch. Use debian if u can!)
 
+
 ### Current clients and servers:
 Status|Architecture
+(These are for the CLI launcher which I haven't started making as of writing this)
 -|-
 💩|Client isn't implemented to the launcher. (Currently none of the clients are implemented.)
 ❌|Doesn't work (Client is detected by the launcher but will more than likely not work)  
@@ -45,7 +47,9 @@ Status|Architecture
 
 ## Installing the launcher 📁
 1.Install the installer depending on your distro.(can be found in https://github.com/Twig6943/Vanilla/releases )
+
 2.Put it into /home/USER/Vanilla/
+
 3.Run the script 🤯
 ## Starting and stopping the webserver ⭐ 
 ### Starting 🚀
